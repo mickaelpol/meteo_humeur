@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'old';
+    src: url('../font/oldstandardtt/OldStandard-Regular.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'questrial';
+    src: url('../font/questrial/Questrial-Regular.ttf')format('truetype');
+}

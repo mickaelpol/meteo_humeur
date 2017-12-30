@@ -1,0 +1,113 @@
+body {
+    font-size: 18px;
+
+    padding: 0;
+    margin: 0;
+    font-family: questrial;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1)), url('../img/geometry.png'); 
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: old;
+}
+
+.bord {
+    border: 1px solid black;
+}
+
+
+.margeTop65 {
+    margin-top: 65px;
+}
+.margeTop60 {
+    margin-top: 60px;
+}
+.margeTop20 {
+    margin-top: 20px;
+}
+.margeTop40 {
+    margin-top: 40px;
+}
+.margeTop45 {
+    margin-top: 45px;
+}
+
+
+.margeBot65 {
+    margin-bottom: 65px;
+}
+.margeBot60 {
+    margin-bottom: 60px;
+}
+.margeBot20 {
+    margin-bottom: 20px;
+}
+.margeBot40 {
+    margin-bottom: 40px;
+}
+
+.margeBot45 {
+    margin-bottom: 45px;
+}
+.font25{
+    font-size: 25px;
+}
+.font20{
+    font-size: 20px;
+}
+.font18{
+    font-size: 18px;
+}
+.font16{
+    font-size: 16px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.traitVert {
+    height: 20px;
+    width: 60px;
+    background-color: #16ed12;
+}
+.traitBleu {
+    height: 20px;
+    width: 60px;
+    background-color: #1b5dd1;
+}
+.traitOrange {
+    height: 20px;
+    width: 60px;
+    background-color: #F25F02;
+}
+.traitRouge {
+    height: 20px;
+    width: 60px;
+    background-color: #ef2902;
+}
+
+.traitBottom {
+    border-bottom: 0.2em solid #B78C33;
+}
+.traitLeft {
+    border-left: 0.2em solid #B78C33;
+}
+.traitRight {
+    border-right: 0.2em solid #B78C33;
+}
